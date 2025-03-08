@@ -1,62 +1,44 @@
-div{margin-left: 1rem;}
 
-.box{
-    display :flex;
-   flex-direction: row;
-}
-body{ width: 100%;
 
+
+.nav-link{
+    display: flex;
+    list-style: none;
 }
 
-.box1{ text-align: center;
+nav li{
+padding-left: 1.5rem;
+padding-right: 1.5rem;
+font-size: 1rem;
+letter-spacing: 3px;
+font-family: sans-serif;
+font-weight: 400;
+}
+
+nav{
     width: 100%;
-    padding: 2rem;
-    background-color: #ff0000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-
-.box1 h1{
-    color: white;
-
+.our-logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 27px;
+    font-family: sans-serif;
 }
 
-.box1 p{
-    color:blue;
+button {
+    background-color: transparent;
+    border: none;
 }
 
-.box2{ text-align: center;
-    padding: 2rem;
-    background-color: rgb(255, 0, 0);
-}
-.box2 h1{
-    color: white;
-}
-
-.box2 p{
-    color:blue;
-}
-
-.box3{ text-align: center;
-    padding: 2rem;
-    background-color: rgb(255, 225, 0);
-}
-.boxs{ text-align: center;
-    padding: 2rem;
-    background-color: rgb(255, 0, 251);
-}
-.box5{ text-align: center;
-    padding: 2rem;
-    background-color: rgb(221, 255, 0);
-}
-.box6{ text-align: center;
-    padding: 2rem;
-    background-color: rgb(255, 0, 21);
-}
-.box7{ text-align: center;
-    padding: 2rem;
-    background-color: red;
-}
-.mixedcolor{ 
-    background-color: green;
-
+button a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
 }
