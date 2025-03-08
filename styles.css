@@ -1,0 +1,62 @@
+div{margin-left: 1rem;}
+
+.box{
+    display :flex;
+   flex-direction: row;
+}
+body{ width: 100%;
+
+}
+
+.box1{ text-align: center;
+    width: 100%;
+    padding: 2rem;
+    background-color: #ff0000;
+}
+
+
+.box1 h1{
+    color: white;
+
+}
+
+.box1 p{
+    color:blue;
+}
+
+.box2{ text-align: center;
+    padding: 2rem;
+    background-color: rgb(255, 0, 0);
+}
+.box2 h1{
+    color: white;
+}
+
+.box2 p{
+    color:blue;
+}
+
+.box3{ text-align: center;
+    padding: 2rem;
+    background-color: rgb(255, 225, 0);
+}
+.boxs{ text-align: center;
+    padding: 2rem;
+    background-color: rgb(255, 0, 251);
+}
+.box5{ text-align: center;
+    padding: 2rem;
+    background-color: rgb(221, 255, 0);
+}
+.box6{ text-align: center;
+    padding: 2rem;
+    background-color: rgb(255, 0, 21);
+}
+.box7{ text-align: center;
+    padding: 2rem;
+    background-color: red;
+}
+.mixedcolor{ 
+    background-color: green;
+
+}
